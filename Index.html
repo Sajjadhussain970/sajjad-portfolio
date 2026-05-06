@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Sajjad Hussain | Portfolio</title>
+
+  <!-- SEO -->
+  <meta name="description" content="Sajjad Hussain - Robotics Engineer, AI Developer, Web Developer Portfolio">
+  <meta name="keywords" content="Robotics, AI, Web Developer, Portfolio">
+  <meta name="author" content="Sajjad Hussain">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Sajjad Hussain Portfolio">
+  <meta property="og:description" content="Robotics & AI Developer Portfolio">
+  <meta property="og:image" content="Images/preview.png">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@700&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- PARTICLES BACKGROUND -->
+<div id="particles"></div>
+
+<!-- NAVBAR -->
+<nav class="navbar">
+  <h2>Sajjad</h2>
+  <div>
+    <a href="#about">About</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-content">
+    <img src="Images/Profilesajjad.png" class="profile-img">
+
+    <h1>Sajjad Hussain</h1>
+    <p class="typing"></p>
+
+    <div class="buttons">
+      <a href="cv.pdf" download>Download CV</a>
+      <a href="https://linkedin.com" target="_blank">LinkedIn</a>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="fade">
+  <h2>About Me</h2>
+  <p>
+    I am a Robotics & AI enthusiast with strong skills in web development and automation.
+  </p>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects" class="fade">
+  <h2>Projects</h2>
+
+  <div class="card">
+    <img src="Images/smartrobocar.jpeg" class="project-img">
+    <h3>Smart Robo Car</h3>
+    <p>AI-based robot with obstacle avoidance and camera system.</p>
+    <a href="#" target="_blank">Live Demo</a>
+  </div>
+
+  <div class="card">
+    <img src="Images/chatbot.jpg" class="project-img">
+    <h3>AI Chatbot</h3>
+    <p>Text & voice summarization chatbot system.</p>
+    <a href="#" target="_blank">Live Demo</a>
+  </div>
+
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="fade">
+  <h2>Contact Me</h2>
+
+  <form action="https://formspree.io/f/yourID" method="POST">
+    <input type="text" name="name" placeholder="Your Name" required>
+    <input type="email" name="email" placeholder="Your Email" required>
+    <textarea name="message" placeholder="Your Message"></textarea>
+    <button type="submit">Send Message</button>
+  </form>
+</section>
+
+<!-- JS -->
+<script src="https://cdn.jsdelivr.net/npm/tsparticles@2/tsparticles.bundle.min.js"></script>
+<script src="main.js"></script>
+
+</body>
+</html>
